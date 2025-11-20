@@ -109,7 +109,7 @@ header nav a:hover {
 
 .portafolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2,1fr);
     gap: 2rem;
     max-width: 1600px;
     margin: 0 auto;
@@ -131,7 +131,7 @@ header nav a:hover {
 
 .project img, .project video {
     width: 100%;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
     display: block;
 }
